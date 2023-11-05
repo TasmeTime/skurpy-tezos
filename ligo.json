@@ -1,0 +1,12 @@
+{
+  "name": "skurpy-tezos",
+  "version": "0.0.1",
+  "description": "skurpy's tezos stuff",
+  "main": "index.js",
+  "scripts": {
+    "build": "ligo compile contract ./contracts/main.jsligo -m Counter -o ./output/main.tz",
+    "build-edition": "ligo compile contract ./contracts/edition.jsligo -m Counter -o ./output/edition.tz"
+  },
+  "author": "",
+  "license": "ISC"
+}
